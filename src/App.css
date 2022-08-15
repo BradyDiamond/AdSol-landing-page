@@ -22,15 +22,25 @@ body {
 .footer { 
 text-align: center;
 align-items: center;
-margin-top: auto;
-background-color: #2c3e50;
+margin-top: 20px;
+box-shadow: 5px 5px rgba(0,0,0,.15);
 height: 10vh;
 }
 
 .header{
   text-align: justify;
   letter-spacing: 1px;
-  height: 4em;
-  background: #2c3e50;
-  color: #fff;
+  height: 5vh;
+  box-shadow: 5px 5px rgba(0,0,0,.15);
+
+}
+.m-1{
+  height: 50px;
+  width: 50px;
+  border: 1px solid blue;
+
+}
+.navbar-logo{
+  height: 5vh;
+  width: 15vw;
 }

@@ -1,8 +1,9 @@
 import React from 'react'
+import logoImage from "./../img/logo.jpg";
 
 function Header() {
   return (
-    <div className='header'>Header</div>
+  <img className="navbar-logo" src={logoImage} href='https://www.advertisingsolutions.agency/'/>
   )
 }
 
