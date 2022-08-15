@@ -9,8 +9,9 @@ import Info from './Info';
 function App() {
   return (
     <div className='app-wrapper'>
-      
-      <Header />
+      <div className="header">
+        <Header />
+      </div>
       <div className="content">
         <div className='slides'>
           <SlideShow />

@@ -28,10 +28,12 @@ height: 10vh;
 }
 
 .header{
-  text-align: justify;
+  text-align: center;
   letter-spacing: 1px;
   height: 5vh;
-  box-shadow: 5px 5px rgba(0,0,0,.15);
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.966);
+  margin-bottom: -75px;
+  
 
 }
 .m-1{
@@ -40,7 +42,6 @@ height: 10vh;
   border: 1px solid blue;
 
 }
-.navbar-logo{
-  height: 5vh;
-  width: 15vw;
+.header-logo{
+
 }
