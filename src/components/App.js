@@ -2,12 +2,21 @@ import 'bootstrap/dist/css/bootstrap.css'
 import '../App.css';
 import Footer from './Footer';
 import SlideShow from './SlideShow'
+import Header from './Header.js';
+import Info from './Info';
+
+
 function App() {
   return (
     <div className='app-wrapper'>
+      
+      <Header />
       <div className="content">
         <div className='slides'>
-        <SlideShow />
+          <SlideShow />
+        </div>
+        <div className='info-form'>
+          <Info />
         </div>
       </div>
       <Footer />
