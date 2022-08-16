@@ -9,34 +9,58 @@ import mountains from "./../img/mountains.png";
 
 
 
+// function App() {
+//   return (
+//     <div className='app-wrapper'>
+//       <div className="header">
+//         <Header />
+//         </div>
+//         <div className='wrapper'>
+        
+//         <img className="background" src={mountains}></img>
+//           <img className="foreground" src={skyline}></img>
+//         </div>
+//       <div className="content">
+//         <div className='slides'>
+//           <div className='col-6'>
+//             {/* <SlideShow /> */}
+//           </div>
+//           <div className='col-6'>
+//             {/* <Info/> */}
+//           </div>
+//         </div>
+//         <div className='slides'>
+//           <div className='col-12'>
+//             {/* <Info/> */}
+//           </div>
+//         </div>
+        
+        
+//       </div>
+//       <Footer />
+//     </div>
+//   );
+// }
+
+
+// 231f20
+
 function App() {
   return (
     <div className='app-wrapper'>
-      <div className="header">
+      <div className="nav-header">
         <Header />
         </div>
         <div className='wrapper'>
-        
-        <img className="background" src={mountains}></img>
+        <header>
+          <img className="background" src={mountains}></img>
           <img className="foreground" src={skyline}></img>
-        </div>
-      <div className="content">
-        <div className='slides'>
-          <div className='col-6'>
-            {/* <SlideShow /> */}
-          </div>
-          <div className='col-6'>
-            {/* <Info/> */}
-          </div>
-        </div>
-        <div className='slides'>
-          <div className='col-12'>
-            {/* <Info/> */}
-          </div>
-        </div>
+        </header>
         
-        
-      </div>
+        <div className='info-body'>
+          <Info />
+        </div>
+        </div>
       <Footer />
     </div>
   );
