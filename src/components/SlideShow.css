@@ -5,6 +5,8 @@
   justify-self: center;
   margin-left: 10%;
   box-shadow: 5px 5px rgba(0,0,0,.15);
+  display: flex;
+  z-index:-1;
 
 }
 
@@ -13,8 +15,8 @@
   align-items: center; 
   max-width: 70vw;
   max-height: 70vh;
-  min-width: 35vw;
-  min-height: 35vh;
+  min-width: 20vw;
+  min-height: 20vh;
 }
 
 #img-2 {
@@ -22,8 +24,8 @@
   align-items: center; 
   max-width: 70vw;
   max-height: 70vh;
-  min-width: 35vw;
-  min-height: 35vh;
+  min-width: 20vw;
+  min-height: 20vh;
   
 }
 
@@ -32,8 +34,8 @@
   align-items: center;
   max-width: 70vw;
   max-height: 70vh;
-  min-width: 35vw;
-  min-height: 35vh;
+  min-width: 20vw;
+  min-height: 20vh;
 
 }
 
@@ -43,8 +45,8 @@
   align-items: center;
   max-width: 70vw;
   max-height: 70vh;
-  min-width: 70vw;
-  min-height: 70vh;
+  min-width: 20vw;
+  min-height: 20vh;
   margin-right: 15vw;
 
   }

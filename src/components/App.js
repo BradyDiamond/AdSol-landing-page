@@ -4,6 +4,7 @@ import Footer from './Footer';
 import SlideShow from './SlideShow'
 import Header from './Header.js';
 import Info from './Info';
+import RightColumn from './RightColumn';
 
 
 function App() {
@@ -15,9 +16,13 @@ function App() {
       <div className="content">
         <div className='slides'>
           <SlideShow />
+        <p className='product-info'>mfewimfowienmifwoenfmowjenfoweiinweonfwonfweoinewoiewnoiwe</p>
+        </div>
+        <div className='column'>
+          <RightColumn />
         </div>
         <div className='info-form'>
-          <Info />
+        
         </div>
       </div>
       <Footer />

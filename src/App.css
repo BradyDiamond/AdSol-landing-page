@@ -6,7 +6,10 @@
 }
 .slides {
   align-items: center;
-  min-height: 100vh;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  max-height: 300px;
+  min-height: 5vh;
   display: flex;
 }
 
@@ -23,7 +26,6 @@ body {
 text-align: center;
 align-items: center;
 margin-top: 20px;
-box-shadow: 5px 5px rgba(0,0,0,.15);
 height: 10vh;
 }
 
@@ -31,17 +33,27 @@ height: 10vh;
   text-align: center;
   letter-spacing: 1px;
   height: 5vh;
-  box-shadow: 5px 5px rgba(0, 0, 0, 0.966);
-  margin-bottom: -75px;
+  box-shadow: 5px 5px rgba(0,0,0,.15);
+  margin-bottom: -7px;
   
 
 }
 .m-1{
-  height: 50px;
-  width: 50px;
+  height: 4vh;
+  width: 8vw;
   border: 1px solid blue;
 
 }
 .header-logo{
-
+  height:9vh;
+  width: 40vw;
+}
+.info-form {
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+}
+.product-info {
+  display: flexbox;
+  position: absolute;
 }

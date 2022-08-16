@@ -8,6 +8,11 @@ import {
   MDBCarouselCaption,
 } from 'mdb-react-ui-kit';
 
+const myComponentStyle = {
+
+
+}
+
 export default function SlideShow() {
   return (
     <div className='slide__wrapper'>
