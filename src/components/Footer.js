@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div className='footer'>
       <div className='icons'>
-      <h1>check</h1>
+        <h1>check</h1>
 
         <MDBBtn className='m-1' style={{ backgroundColor: '#3b5998' }} href='#'>
           <MDBIcon fab icon='facebook-f' />

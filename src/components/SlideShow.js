@@ -15,7 +15,7 @@ const myComponentStyle = {
 
 export default function SlideShow() {
   return (
-    <MDBCarousel>
+    <MDBCarousel className='main-slide'>
       <MDBCarouselInner>
         <MDBCarouselItem className='active'>
           <MDBCarouselElement src='https://mdbootstrap.com/img/new/slides/041.webp' alt='...' />
