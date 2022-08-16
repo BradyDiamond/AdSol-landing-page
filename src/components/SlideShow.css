@@ -3,16 +3,18 @@
   margin-top: -10vh;
   align-items: center;
   justify-self: center;
-  margin-left: 10%;
+  margin-left: 0%;
+  margin-right: 0%;
   box-shadow: 5px 5px rgba(0,0,0,.15);
   display: flex;
   z-index:-1;
+  height: 30VH;
 
 }
 
 #img-1{
 
-  align-items: center; 
+  /* align-items: center;  */
   max-width: 70vw;
   max-height: 70vh;
   min-width: 20vw;
@@ -21,7 +23,7 @@
 
 #img-2 {
 
-  align-items: center; 
+  /* align-items: center;  */
   max-width: 70vw;
   max-height: 70vh;
   min-width: 20vw;
@@ -31,7 +33,7 @@
 
 #img-3 {
 
-  align-items: center;
+  /* align-items: center; */
   max-width: 70vw;
   max-height: 70vh;
   min-width: 20vw;
@@ -42,7 +44,7 @@
 
 .active {
 
-  align-items: center;
+  /* align-items: center; */
   max-width: 70vw;
   max-height: 70vh;
   min-width: 20vw;

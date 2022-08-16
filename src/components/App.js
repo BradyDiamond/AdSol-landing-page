@@ -4,7 +4,9 @@ import Footer from './Footer';
 import SlideShow from './SlideShow'
 import Header from './Header.js';
 import Info from './Info';
-import RightColumn from './RightColumn';
+import skyline from "./../img/skyline.png";
+import mountains from "./../img/mountains.png";
+
 
 
 function App() {
@@ -12,18 +14,28 @@ function App() {
     <div className='app-wrapper'>
       <div className="header">
         <Header />
-      </div>
+        </div>
+        <div className='wrapper'>
+        
+        <img className="background" src={mountains}></img>
+          <img className="foreground" src={skyline}></img>
+        </div>
       <div className="content">
         <div className='slides'>
-          <SlideShow />
-        <p className='product-info'>mfewimfowienmifwoenfmowjenfoweiinweonfwonfweoinewoiewnoiwe</p>
+          <div className='col-6'>
+            {/* <SlideShow /> */}
+          </div>
+          <div className='col-6'>
+            {/* <Info/> */}
+          </div>
         </div>
-        <div className='column'>
-          <RightColumn />
+        <div className='slides'>
+          <div className='col-12'>
+            {/* <Info/> */}
+          </div>
         </div>
-        <div className='info-form'>
         
-        </div>
+        
       </div>
       <Footer />
     </div>
