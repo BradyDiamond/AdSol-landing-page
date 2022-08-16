@@ -6,6 +6,8 @@ import Header from './Header.js';
 import Info from './Info';
 import skyline from "./../img/skyline.png";
 import mountains from "./../img/mountains.png";
+import Form from './Form';
+
 
 
 function App() {
@@ -14,23 +16,27 @@ function App() {
     <div className='app-wrapper'>
       <div className="nav-header">
         <Header />
-        </div>
+      </div>
         <div className='wrapper'>
-        <header>
-          <img className="background" src={mountains}></img>
-          <img className="foreground" src={skyline}></img>
-        </header>
-        
-        <div className='info-body'>
-          <Info />
-          <div className='slides'>
-            <SlideShow />
+          <header>
+            <img className="background" src={mountains}></img>
+            <img className="foreground" src={skyline}></img>
+          </header>
+          
+          <div className='info-body'>
+            <Info />
+            <div className='slides'>
+              <SlideShow />
+            </div>
+            <div className='form-body'>
+              <Form />
+            </div>        
           </div>
-        </div>
         </div>
         <div className='footer'>
           <Footer />
         </div>
+     
       </div>
   );
 }

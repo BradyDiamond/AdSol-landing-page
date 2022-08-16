@@ -61,7 +61,7 @@ section {
 .info-body{
   background-color: #231f20;
   margin-top: 0px;
-  height: 90vh;
+  /* height: 100%; */
   transform: translateZ(-5px) scale(1.5);
   width: 101%;
   z-index: -1;
@@ -105,12 +105,27 @@ section {
 
 /*----------------------------------------------------- */
   .info-text{
+    position: absolute;
     color:white;
     text-align: center;
+    font-size: 5vw;
+    z-index: 1;
   }
   
   .carousel-inner{
     justify-content: center;
     width: 100vw;
     max-width: 100%;
+  }
+
+  .form-body{
+    z-index: 1;
+  }
+  .form-input{
+    font-size: small;
+    position: absolute;;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
