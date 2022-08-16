@@ -82,11 +82,28 @@ section {
     z-index: -2;
     background-color: transparent;
   }
-  .nav-header{
-    z-index: -2;
-    background-color: transparent; 
+  /* navbar hide */
+ .nav-header{
     background-color: #231f20;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
   }
+  .visible {
+    /* display: flex; */
+    top: 0;
+    transition: top 0.4s ease-out;
+  }
+  
+  .hidden {
+    /* display: none; */
+    top: -80px;
+    transition: top 0.4s ease-out;
+  }
+
+/*----------------------------------------------------- */
   .info-text{
     color:white;
     text-align: center;
@@ -94,5 +111,12 @@ section {
   .slides{
     display: flex;
     justify-content: center;
-    /* max-width: 75vw; */
+    width: 100vw;
+    max-width: 100%;
+  }
+  .carousel-inner{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    max-width: 100%;
   }
