@@ -108,14 +108,8 @@ section {
     color:white;
     text-align: center;
   }
-  .slides{
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    max-width: 100%;
-  }
+  
   .carousel-inner{
-    display: flex;
     justify-content: center;
     width: 100vw;
     max-width: 100%;
