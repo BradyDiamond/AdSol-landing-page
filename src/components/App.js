@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import '../App.css';
 import './Header.css';
 import './Footer.css';
+import './Info.css';
 import Footer from './Footer';
 import SlideShow from './SlideShow'
 import Header from './Header.js';
@@ -19,12 +20,7 @@ function App() {
       <div className="nav-header">
       </div>
         <div className='wrapper'>
-          <header>
-            <img className="background" src={mountains}></img>
-            <p>test text</p>
-            <img className="foreground" src={skyline}></img>
-          </header>
-          
+          <Header />          
           <div className='info-body'>
           <Info />
             <div className='slides'>
@@ -35,8 +31,7 @@ function App() {
         </div>
         <div className='footer'>
           <Footer />
-        </div>
-     
+        </div>     
       </div>
   );
 }

@@ -14,39 +14,6 @@
   z-index: 1;
 }
 
-
-
-.title {
-  font-size: 7rem;
-  color: white;
-  text-shadow: 0 0 5px black;;
-}
-
-.info-body{
-  position: absolute;
-  background-color: #231f20;
-  margin-top: 69vh;
-  height: 100vw;
-  transform: translateZ(-5px) scale(1.5);
-  width: fit-content;
-block-size: fit-content;
-  z-index: 1;
-  text-align: center;
-}
-
-
-.info-text{
-  font-family: 'Cormorant', serif;
-  margin-top: 3%;
-  position: relative;
-  color:white;
-  text-align: center;
-  font-size: 5vw;
-  z-index: -1;       
-}
-
-
-
 .form-input{
   font-size: medium;
   position:relative;;
@@ -56,7 +23,7 @@ block-size: fit-content;
   align-items: center;
 }
 
-
   .icons{
     background-color: #231f20;
   }
+  
