@@ -5,7 +5,6 @@ header {
   align-items: center;
   height: 100%;
   transform-style: preserve-3d;
-  z-index:1;
   text-align: center;
 }
 
@@ -39,7 +38,7 @@ header {
   height:7vh;
   width: 18vw;
   object-fit: cover;
-  z-index: -2;
+  /* z-index: -2; */
   background-color: transparent;
 }
 
@@ -50,4 +49,59 @@ justify-content: center;
 top: 0;
 /* position: fixed; */
 width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* transform-style: preserve-3d; */
+    text-align: center;
+  }
+  
+  /* .background {
+    transform: translateZ(-15px) scale(2);
+  }
+  
+  .foreground {
+    transform: translateZ(-5px) scale(1.5);
+  } */
+  
+  .background{
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+    z-index: -1;
+  }
+  .foreground {
+    position: absolute;
+    margin-top: -10%;
+    height: 120%;
+    width: 105%;
+    object-fit: cover;
+    z-index: -1;
+    margin-bottom: 0px;
+    
+  }
+  
+  .header-logo{
+    height:7vh;
+    width: 18vw;
+    object-fit: cover;
+    /* z-index: -2; */
+    background-color: transparent;
+  }
+  
+  .nav-header{
+    background-color: #231f20;
+  display: flex;
+  justify-content: center;
+  /* top: 0; */
+  /* position: fixed; */
+  width: 100%;
+  }
 }

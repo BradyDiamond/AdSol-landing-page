@@ -4,11 +4,7 @@ import Form from './Form';
 function Info() {
   return (
     <div className='info-text'>
-Classically Modern Cameras 
-   
-    <div>
-      <Form />
-    </div>
+Classically Modern Cameras    
     </div>
   )
 }

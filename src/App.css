@@ -11,12 +11,9 @@
   overflow-x: hidden;
   perspective: 10px;
   background-color: #231f20;
-  z-index: -2;
+  z-index: 1;
 }
 
-.app-wrapper {
-  background-color: #231f20;
-}
 
 
 .title {
@@ -28,12 +25,12 @@
 .info-body{
   position: absolute;
   background-color: #231f20;
-  /* margin-top: 60vh; */
+  margin-top: 69vh;
   height: 100vw;
   transform: translateZ(-5px) scale(1.5);
   width: fit-content;
 block-size: fit-content;
-  z-index: -2;
+  z-index: 1;
   text-align: center;
 }
 

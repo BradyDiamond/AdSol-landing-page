@@ -26,7 +26,7 @@ function App() {
           </header>
           
           <div className='info-body'>
-          {/* <Header /> */}
+          <Info />
             <div className='slides'>
               <SlideShow />
             </div>
