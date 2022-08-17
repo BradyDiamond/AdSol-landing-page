@@ -28,9 +28,6 @@ function App() {
             <div className='slides'>
               <SlideShow />
             </div>
-            <div className='form-body'>
-              <Form />
-            </div>        
           </div>
         </div>
         <div className='footer'>

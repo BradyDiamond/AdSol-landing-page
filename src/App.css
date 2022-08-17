@@ -82,7 +82,7 @@ section {
     z-index: -2;
     background-color: transparent;
   }
-  /* navbar hide */
+
  .nav-header{
     background-color: #231f20;
   display: flex;
@@ -91,25 +91,15 @@ section {
   position: fixed;
   width: 100%;
   }
-  .visible {
-    /* display: flex; */
-    top: 0;
-    transition: top 0.4s ease-out;
-  }
-  
-  .hidden {
-    /* display: none; */
-    top: -80px;
-    transition: top 0.4s ease-out;
-  }
 
-/*----------------------------------------------------- */
   .info-text{
-    position: absolute;
+    margin-top: 3%;
+    position: relative;
     color:white;
     text-align: center;
     font-size: 5vw;
     z-index: 1;
+    padding: %;
   }
   
   .carousel-inner{
@@ -118,12 +108,10 @@ section {
     max-width: 100%;
   }
 
-  .form-body{
-    z-index: 1;
-  }
+  
   .form-input{
-    font-size: small;
-    position: absolute;;
+    font-size: medium;
+    position:relative;;
     color: aliceblue;
     display: flex;
     justify-content: center;
