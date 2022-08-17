@@ -1,5 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import '../App.css';
+import './Header.css';
+import './Footer.css';
 import Footer from './Footer';
 import SlideShow from './SlideShow'
 import Header from './Header.js';
@@ -15,16 +17,16 @@ function App() {
   return (
     <div className='app-wrapper'>
       <div className="nav-header">
-        <Header />
       </div>
         <div className='wrapper'>
           <header>
             <img className="background" src={mountains}></img>
+            <p>test text</p>
             <img className="foreground" src={skyline}></img>
           </header>
           
           <div className='info-body'>
-          <Header />
+          {/* <Header /> */}
             <div className='slides'>
               <SlideShow />
             </div>

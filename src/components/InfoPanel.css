@@ -1,3 +1,13 @@
 .info-panel{
-height: 20vh;
+height: 5vh;
+}
+.panel-img{
+  align-items: center;
+  height:100vh;
+  width: 100vw;
+  margin: 0px;
+}
+.info-panel > .row{
+  height: 50%;
+  border: 10px solid blue;
 }

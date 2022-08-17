@@ -7,8 +7,9 @@
   margin-right: 0%;
   box-shadow: 5px 5px rgba(0,0,0,.15);
   display: flex;
-  z-index:-1;
+  z-index: 1;
   max-height: 30VH;
+  
 
 }
 
@@ -19,6 +20,7 @@
   min-width: 20vw;
   min-height: 20vh;
   margin-right: 15vw;
+  z-index: 3;
 
   }
 
@@ -27,4 +29,10 @@
   }
   .caption{
     z-index: 1;
+  }
+
+  .carousel-inner{
+    justify-content: center;
+    width: 100vw;
+    max-width: 100%;
   }

@@ -11,47 +11,13 @@
   overflow-x: hidden;
   perspective: 10px;
   background-color: #231f20;
+  z-index: -2;
 }
 
 .app-wrapper {
   background-color: #231f20;
 }
 
-header {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  transform-style: preserve-3d;
-  z-index: -1;
-}
-
-.background {
-  transform: translateZ(-15px) scale(2);
-}
-
-.foreground {
-  transform: translateZ(-5px) scale(1.5);
-}
-
-.background{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-.foreground {
-  position: absolute;
-  margin-top: -10%;
-  height: 120%;
-  width: 105%;
-  object-fit: cover;
-  z-index: -1;
-  margin-bottom: 0px;
-  
-}
 
 .title {
   font-size: 7rem;
@@ -60,84 +26,40 @@ header {
 }
 
 .info-body{
+  position: absolute;
   background-color: #231f20;
-  margin-top: 60vh;
+  /* margin-top: 60vh; */
   height: 100vw;
   transform: translateZ(-5px) scale(1.5);
-  width: 101%;
-  z-index: -1;
+  width: fit-content;
+block-size: fit-content;
+  z-index: -2;
   text-align: center;
 }
 
-.footer { 
-  text-align: center;
-  align-items: center;
-  margin-top: 20px;
-  max-height: 20px;
-  background-color: #231f20;
+
+.info-text{
   font-family: 'Cormorant', serif;
+  margin-top: 3%;
+  position: relative;
   color:white;
-  
-  
-  }
+  text-align: center;
+  font-size: 5vw;
+  z-index: -1;       
+}
 
-  .header-logo{
-    height:7vh;
-    width: 18vw;
-    object-fit: cover;
-    z-index: -2;
-    background-color: transparent;
-  }
 
- .nav-header{
-    background-color: #231f20;
+
+.form-input{
+  font-size: medium;
+  position:relative;;
+  color: aliceblue;
   display: flex;
   justify-content: center;
-  top: 0;
-  position: fixed;
-  width: 100%;
-  }
+  align-items: center;
+}
 
-  .info-text{
-    font-family: 'Cormorant', serif;
-    margin-top: 3%;
-    position: relative;
-    color:white;
-    text-align: center;
-    font-size: 5vw;
-    z-index: -1;       
-  }
-  
-  .carousel-inner{
-    justify-content: center;
-    width: 100vw;
-    max-width: 100%;
-  }
 
-  
-  .form-input{
-    font-size: medium;
-    position:relative;;
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .icons{
+    background-color: #231f20;
   }
-
-  @media only screen and (max-width: 768px) {
-    .footer
-    {
-        
-        border-width: thin;
-        border-style: solid;
-        opacity: 0.9;
-        margin: 0.3em;
-        min-height: 16em;
-       
-        font-family: 'Cormorant', serif;
-    }
-    }
-
-    .icons{
-      background-color: #231f20;
-    }
