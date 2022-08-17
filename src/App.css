@@ -4,15 +4,6 @@
 
 }
 
-.wrapper {
-  height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden;
-  perspective: 10px;
-  background-color: #231f20;
-  z-index: 1;
-}
-
 .form-input{
   font-size: medium;
   position:relative;;

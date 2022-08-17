@@ -4,16 +4,18 @@ import './Header.css';
 import './Footer.css';
 import skyline from "./../img/skyline.png";
 import mountains from "./../img/mountains.png";
+import mobile from "./../img/moble-header.png";
 
 
 
 function Header() {
  
   return (
-    <header>
+    <>
+    <header className='desktop-header'>
       <div className='background'>
-      <img  src={mountains}></img>
-      <p className='product-header-text-under'></p>
+        <img  src={mountains}></img>
+        <p className='product-header-text-under'></p>
       </div>
       <p className='product-header-text'>
       <span className="--i:1">A</span>
@@ -24,9 +26,13 @@ function Header() {
       <span className="--i:6">I</span>
       {/* <span className="--i:7">g</span> */}
       <span classNae="--i:8">.</span>
-        </p>
+      </p>
       <img className="foreground" src={skyline}></img>
     </header>
+    <header className='mobile-header'>
+      <img className="mobile-header" src={mobile}></img>  
+    </header>
+    </>
   )
 }
 
