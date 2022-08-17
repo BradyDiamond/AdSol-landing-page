@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 1000px){
 .footer { 
   text-align: center;
   align-items: center;
@@ -9,17 +9,31 @@
   width: 100%;
   margin-bottom: 0px !important;
   z-index: -1;
+}
+  .icons{
+    background-color: #231f20;
+  }
+  
+
   
   }
 
   
-  @media (max-width: 767px) {
+  @media (max-width: 1000px) {
     .footer
     {
       margin-top:0px !important;
       height: auto;
       background-color: #231f20;
+      font-family: 'Cormorant', serif;
+      color:white;   
     }
+    
+  .icons{
+    background-color: #231f20;
+  }
+  
+
   
    }
- 
+  
