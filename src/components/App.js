@@ -24,7 +24,7 @@ function App() {
           </header>
           
           <div className='info-body'>
-            <Info />
+          <Header />
             <div className='slides'>
               <SlideShow />
             </div>

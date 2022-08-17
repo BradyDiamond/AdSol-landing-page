@@ -28,7 +28,7 @@ header {
 }
 
 .background {
-  transform: translateZ(-10px) scale(2);
+  transform: translateZ(-15px) scale(2);
 }
 
 .foreground {
@@ -61,11 +61,12 @@ header {
 
 .info-body{
   background-color: #231f20;
-  margin-top: 0px;
-  /* height: 100%; */
+  margin-top: 60vh;
+  height: 100vw;
   transform: translateZ(-5px) scale(1.5);
   width: 101%;
   z-index: -1;
+  text-align: center;
 }
 
 .footer { 
@@ -104,7 +105,7 @@ header {
     color:white;
     text-align: center;
     font-size: 5vw;
-    z-index: 1;       
+    z-index: -1;       
   }
   
   .carousel-inner{
@@ -126,13 +127,13 @@ header {
   @media only screen and (max-width: 768px) {
     .footer
     {
-        ;
+        
         border-width: thin;
         border-style: solid;
         opacity: 0.9;
         margin: 0.3em;
         min-height: 16em;
-        width: 285%;
+       
         font-family: 'Cormorant', serif;
     }
     }
