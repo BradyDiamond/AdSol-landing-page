@@ -6,7 +6,7 @@ import Header from './Header.js';
 import Info from './Info';
 import skyline from "./../img/skyline.png";
 import mountains from "./../img/mountains.png";
-import Form from './Form';
+import InfoPanel from './InfoPanel';
 
 
 
@@ -28,6 +28,7 @@ function App() {
             <div className='slides'>
               <SlideShow />
             </div>
+            <InfoPanel />
           </div>
         </div>
         <div className='footer'>

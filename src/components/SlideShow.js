@@ -35,12 +35,14 @@ export default function SlideShow() {
       <MDBCarouselItem>
         <MDBCarouselElement src='https://images.unsplash.com/photo-1604250165934-78133c454c24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80' alt='...' />
         <MDBCarouselCaption className='caption'>
+
         </MDBCarouselCaption>
       </MDBCarouselItem>
 
       <MDBCarouselItem>
         <MDBCarouselElement src='https://images.unsplash.com/photo-1643447727844-1e2e31544237?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80' alt='...' />
         <MDBCarouselCaption className='caption'>
+
         </MDBCarouselCaption>
       </MDBCarouselItem>
 
