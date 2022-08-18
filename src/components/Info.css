@@ -26,6 +26,7 @@
 }
 
 .product-info-text{
+  overflow: hidden;
   position: relative;
   background-color: transparent;
   font-size: 30rem;

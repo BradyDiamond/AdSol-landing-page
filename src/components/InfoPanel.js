@@ -8,13 +8,17 @@ function InfoPanel() {
   return (
     <div className='info-panel'>
       <div className="row">
-        <div className='col-8'>
-          <VideoPanel />
+        <div className='col-12'>
+          <div className='main-content'>
+            <VideoPanel />
+          </div>
         </div>
       
-        <div className='col-4'>
+        {/* <div className='col-12'>
+          <div className='main-content'>
          <TextPanel />
-        </div>
+          </div>
+        </div> */}
       </div>
     </div>
   )

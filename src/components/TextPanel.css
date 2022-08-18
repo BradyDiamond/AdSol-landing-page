@@ -1,15 +1,12 @@
 .main-content {
-  overflow:hidden;
-    position: relative;
-    
-    display: flex;
+  overflow:hidden;    
+    display: row;
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    border-left: .2vw solid rgba(74,71,70,1);
-    height: 100vh;
-    
-    background: linear-gradient(to left, rgba(36,31,31,1) 0%, rgba(36,31,31,1) 32%, rgba(74,71,70,1) 100%);
+    margin-left: 0px;
+    width: 100vw;;
+    height: 100%;
     color: #fff;
     text-align: center;
 }
@@ -28,11 +25,6 @@
   animation-delay: calc(30s * var(--i));
   border-bottom: -300px;
 }
-@keyframes flip {
-  0%,10% {
-    transform: rotateY(180deg)scale(1.4%)
-  }
-}
 
 .m2{
   height: 200px;
@@ -46,28 +38,13 @@
   border-radius: 50%;
 }
 
-.pushable {
-  background: hsl(340deg 100% 32%);
-  border-radius: 50%;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  outline-offset: 4px;
-}
-.front {
-  display: block;
-  padding: 12px 42px;
-  border-radius: 50%;
-  font-size: 1vh;
-  background: hsl(345deg 100% 47%);
-  color: white;
-  transform: translateY(-6px);
-}
-
 .pushable:active .front {
   transform: translateY(-2px);
 }
 .facebook-f{
   height:100%;
   width: 200px;
+}
+.col-4{
+  margin-left:-1vw;
 }

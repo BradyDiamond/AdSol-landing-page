@@ -10,6 +10,7 @@ import Header from './Header.js';
 import Info from './Info';
 import skyline from "./../img/skyline.png";
 import mountains from "./../img/mountains.png";
+import VideoPanel from './InfoPanel';
 import InfoPanel from './InfoPanel';
 
 
@@ -27,7 +28,7 @@ function App() {
             <div className='slides'>
               <SlideShow />
             </div>
-            <InfoPanel />
+            <VideoPanel />
           </div>
         </div>
         <div className='footer'>
