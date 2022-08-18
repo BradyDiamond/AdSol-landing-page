@@ -23,7 +23,7 @@ function Header() {
       <img src={skyline}></img>
       <br></br>
       <p>The New Fragrance</p>
-      <p><small>-</small></p>
+      <p><small></small></p>
       </div>
     </header>
     <header className='mobile-header'>

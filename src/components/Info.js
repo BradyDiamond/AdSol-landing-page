@@ -4,7 +4,6 @@ import bottle from "./../img/chanel-bottle.png";
 function Info() {
   return (
     <>
-    <p>The</p>
      <p className='product-header-text'>
       <span className="--i:1">A</span>
       <span className="--i:2">R</span>

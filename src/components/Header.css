@@ -7,6 +7,7 @@
   height: 100%;
   transform-style: preserve-3d;
   text-align: center;
+  overflow:visible
 }
 
 .background {
@@ -20,7 +21,7 @@
 .background{
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 100vw;
   object-fit: cover;
   z-index: -1;
    
@@ -30,12 +31,12 @@
   margin-top: 1%;
   margin-bottom: -10vh;
   height: 120%;
-  width: 105%;
+  width: 100vw;
   object-fit: cover;
   z-index: -1;
-  margin-bottom: 0px;
+  /* margin-bottom: 115px; */
   font-size: xx-large;
-  font-size: 10rem;
+  font-size: 8vw;
   color: #231f20;
   font-family: 'Cormorant', serif;
   line-height:1.5;
@@ -69,24 +70,19 @@ width: 100%;
 .product-header-text span {
   position: relative;
   display: inline-block;
-  font-size: 30rem;
+  font-size: 30vh;
   color:#fa3600;
   text-transform: uppercase; 
   animation: flip 5s;
-  animation-delay: calc(1s * var(--i))
+  animation-delay: calc(1s * var(--i));
+  border-bottom: -300px;
 }
 @keyframes flip {
   0%,10% {
     transform: rotateY(180deg) 
   }
 }
-.product-header-text-under{
-  font-size: 20rem;
-  color: rgb(253, 191, 7);
-  font-family: 'Cormorant', serif;
-  margin-top: -30vh;
-  z-index: -2;
-}
+
 .mobile-header{
   display: none;
 }
@@ -107,15 +103,8 @@ width: 100%;
 }
 
 @media screen and (max-width:1000px) {
-  header {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform-style: preserve-3d;
-    text-align: center;
-    background-attachment: scroll !important;
-    background-position: center !important;
+  .desktop-header {
+  display:none;
   }
   .desk-logo{
     display: none;
@@ -133,11 +122,11 @@ width: 100%;
 }
 
   .mobile-header{
-  height: 60%;
+  height: 50%;
   width: 100%;
   resize: both;
   margin-bottom: 0px;
-  margin-top: -5px;
+  margin-top: 0px;
   }
 
   .background {
