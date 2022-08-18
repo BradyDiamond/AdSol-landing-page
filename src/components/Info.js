@@ -1,10 +1,11 @@
 import React from 'react'
 import bottle from "./../img/chanel-bottle.png";
+import './Info.css'
 
 function Info() {
   return (
     <>
-     <p className='product-header-text'>
+     <p className='product-info-text'>
       <span classNae="--i:8">-</span>
       <span className="--i:1">S</span>
       <span className="--i:2">A</span>

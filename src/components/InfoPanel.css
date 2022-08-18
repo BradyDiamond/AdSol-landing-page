@@ -24,3 +24,7 @@ height: 5vh;
  }
  @media (max-width: 767px) {
  }
+
+ .vid{
+  height:100vh;
+ }

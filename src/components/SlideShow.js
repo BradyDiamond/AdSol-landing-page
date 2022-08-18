@@ -34,7 +34,7 @@ export default function SlideShow() {
       </MDBCarouselItem>
 
       <MDBCarouselItem>
-        <MDBCarouselElement src='https://images.pexels.com/photos/256453/pexels-photo-256453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='...' />
+        <MDBCarouselElement src='https://images.pexels.com/photos/131616/pexels-photo-131616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='...' />
         <MDBCarouselCaption className='caption'>
         </MDBCarouselCaption>
       </MDBCarouselItem>

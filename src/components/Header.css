@@ -59,30 +59,7 @@ top: 0;
 position: fixed;
 width: 100%;
 }
-.product-header-text{
-  position: relative;
-  background-color: transparent;
-  font-size: 30rem;
-  color: #ffa49e;
-  font-family: 'Cormorant', serif;
-  text-shadow: 5px 5px rgb(251, 251, 251);
 
-}
-.product-header-text span {
-  position: relative;
-  display: inline-block;
-  font-size: 30vh;
-  color:#fa3600;
-  text-transform: uppercase; 
-  animation: flip 5s infinite;
-  animation-delay: calc(1s * var(--i));
-  border-bottom: -300px;
-}
-@keyframes flip {
-  0%,10% {
-    transform: rotateY(180deg)scale(1.4%)
-  }
-}
 
 .mobile-header{
   display: none;
