@@ -21,7 +21,7 @@ export default function SlideShow() {
       <MDBCarouselCaption className='caption'>
         </MDBCarouselCaption>
         
-        <MDBCarouselElement src='https://images.unsplash.com/photo-1604250165700-adffa4dd11a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80' alt='...' />
+        <MDBCarouselElement src='https://images.pexels.com/photos/1386454/pexels-photo-1386454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='...' />
         
       </MDBCarouselItem>
 
@@ -29,18 +29,18 @@ export default function SlideShow() {
       <MDBCarouselCaption className='caption'> 
       <p></p>   
         </MDBCarouselCaption>
-        <MDBCarouselElement src='https://images.unsplash.com/photo-1495757450029-09dbedacbc36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80' alt='...' />
+        <MDBCarouselElement src='https://images.pexels.com/photos/594421/pexels-photo-594421.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='...' />
         
       </MDBCarouselItem>
 
       <MDBCarouselItem>
-        <MDBCarouselElement src='https://images.unsplash.com/photo-1604250165934-78133c454c24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80' alt='...' />
+        <MDBCarouselElement src='https://images.pexels.com/photos/256453/pexels-photo-256453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='...' />
         <MDBCarouselCaption className='caption'>
         </MDBCarouselCaption>
       </MDBCarouselItem>
 
       <MDBCarouselItem>
-        <MDBCarouselElement src='https://images.unsplash.com/photo-1643447727844-1e2e31544237?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80' alt='...' />
+        <MDBCarouselElement src='https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='...' />
         <MDBCarouselCaption className='caption'>
 
         </MDBCarouselCaption>

@@ -23,11 +23,23 @@ function TextPanel() {
       <span className="--i:7">-</span> */}
       
       </p>
+      <button class="pushable">
+  <span class="front">
+    <img className='fb-logo' src='https://i.pinimg.com/564x/f7/99/20/f79920f4cb34986684e29df42ec0cebe.jpg'></img> 
+  </span>
+</button>
    
     </div>
   )
 }
-
+{/* </p>
+      <button class="pushable">
+  <span className="front"><img 
+</span>
+</button>
+   
+    </div>
+  ) */}
 export default TextPanel
 
 
