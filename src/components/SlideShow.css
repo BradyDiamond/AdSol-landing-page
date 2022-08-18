@@ -45,3 +45,8 @@
     font-size:4vw;
     overflow-x: hidden;
   }
+
+  .MDB-car{
+    height:50vh;
+    justify-content: center;
+  }

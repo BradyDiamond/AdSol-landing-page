@@ -3,6 +3,7 @@ import '../App.css';
 import './Header.css';
 import './Footer.css';
 import './Info.css';
+import './SlideShow.css'
 import Footer from './Footer';
 import SlideShow from './SlideShow'
 import Header from './Header.js';

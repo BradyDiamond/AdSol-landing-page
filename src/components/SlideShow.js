@@ -14,7 +14,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 export default function SlideShow() {
   return (
-    <MDBCarousel showIndicators showControls fade>
+    <MDBCarousel className='MDB-car' showIndicators showControls fade>
     <MDBCarouselInner className='carousel-in'>
 
       <MDBCarouselItem className='active'>
