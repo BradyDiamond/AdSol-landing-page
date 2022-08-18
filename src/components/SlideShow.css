@@ -36,3 +36,12 @@
     width: 100vw;
     max-width: 100%;
   }
+
+  .slide-text{
+    margin-bottom: -80vh;
+    text-align: center;
+    z-index: 2;
+    color:white;
+    font-size:4vw;
+    overflow-x: hidden;
+  }
