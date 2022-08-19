@@ -11,14 +11,15 @@ function VideoPanel() {
         <ul className="city-names">
           <li>London</li>
           <li>\\\\\\\</li>
-          <li>New York</li>
           <li>Los  Angles</li>
           <li>Portland</li>
+          <li>New Brady</li>
+         
         </ul>
      
         <ul className="outer-z-text">
           <li>11/11/22</li>
-          <button className='form-btn'>11/11/22</button>
+          <button className='form-btn'></button>
     
         </ul>
         </div>

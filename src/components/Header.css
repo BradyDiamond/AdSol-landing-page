@@ -7,7 +7,9 @@
   height: 100%;
   transform-style: preserve-3d;
   text-align: center;
-  overflow:visible
+  overflow:visible;
+  
+
 }
 
 .background {
@@ -19,11 +21,13 @@
 }
 
 .background{
+  margin-left: -19vw;
   position: absolute;
   height: 100%;
   width: 100vw;
   object-fit: cover;
   z-index: -1;
+  flex-direction: center;
    
 }
 .foreground {
