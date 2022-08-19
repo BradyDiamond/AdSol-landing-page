@@ -52,4 +52,12 @@
 	width: 100px;
 	align-self: center;
 }
+.smaller{
+	justify-content: center;
+	font-size: 4.2vw;
+	font-weight: bolder;
+	background-color: rgba(0, 0, 0, 0.12);
+	/* margin-left: -200%;
+	margin-right: -200%; */
+}
 	

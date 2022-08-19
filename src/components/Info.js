@@ -24,11 +24,11 @@ const Info = () => {
          
       </p>
 
-      {/* <Form /> */}
+      
       
 
     <div className='info-text'>
-      <img  data-aos="fade-up" src={bottle}></img>
+      <img src={bottle}></img>
     </div>
     </>
   )

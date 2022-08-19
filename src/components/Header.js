@@ -4,7 +4,7 @@ import './Header.css';
 import './Footer.css';
 import skyline from "./../img/skyline.png";
 import mountains from "./../img/mountains.png";
-import mobile from "./../img/moble-header.png";
+import mobile from "./../img/mobile-header.png";
 import logo from "./../img/chanel-logo.png";
 import './Info.css';
 

@@ -43,7 +43,7 @@
   font-size: 30vh;
   color:#fa3600;
   text-transform: uppercase; 
-  animation: flip 5s;
+  animation: flip 20s infinite;
   animation-delay: calc(1s * var(--i));
  
 }
