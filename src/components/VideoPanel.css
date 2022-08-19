@@ -1,7 +1,55 @@
 .video-bg{
   width: fill;
   height: fill;
+  position: absolute;
+  z-index: -1;
 }
-.vid{
-
+.video-fg{
+  position: relative;
+	  margin: 0 auto;
+	  text-align: center;
+	  font-family: sans-serif;
+	  font-weight: 600;
+	  background: transparent;
+    z-index: 3;
+		overflow: hidden;
+	}
+	.vid{
+    display: flex;
+  }
+	header {
+	  margin: 6.25em auto;
+	  height: 2.6em;
+	  overflow: hidden;
+	  width: 100%;
+	}
+	
+	ul,
+	li {
+	  height: 13.5em;
+	  margin: 0px;
+	  padding: 0px;
+	  width: 100%;
+	}
+	
+	li {
+	  list-style-type: none;
+	  margin: 0px 0 1px 0;
+	  height: 20vh;
+	  padding: 0px 0 0px 0;
+	  font-size: 300px;
+	  text-transform: uppercase;
+	  width: 100%;
+	}
+	.outer-z-text{
+		color: rgb(152, 4, 4);
+		justify-content: center;
+		font-family: 'Cormorant', serif;
+		font-size: 60vw;
+	}
+.form-btn{
+	height: 100px;
+	width: 100px;
+	align-self: center;
 }
+	
