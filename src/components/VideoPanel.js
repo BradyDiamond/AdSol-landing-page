@@ -1,8 +1,10 @@
 import React from 'react'
 import './VideoPanel.css'
+import Form from './Form';
 
 function VideoPanel() {
   return (
+    <>
     <div  className ="vid">
       <video className='video-bg' autoPlay loop muted> 
         <source src="https://assets.mixkit.co/videos/preview/mixkit-black-and-white-ink-underwater-487-large.mp4" type="video/mp4" /> 
@@ -19,12 +21,12 @@ function VideoPanel() {
      
         <ul className="outer-z-text">
           <li>11/11/22</li>
-          <button className='form-btn'></button>
-    
-        </ul>
+          
+        </ul>  
         </div>
       </div>
-    
+       <Form />
+    </>
   )
 }
 

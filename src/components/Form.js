@@ -1,26 +1,24 @@
-
 import React from 'react';
-import {
-  MDBInput,
-  MDBCheckbox,
-  MDBBtn
-} from 'mdb-react-ui-kit';
+import { useForm } from 'react-hook-form';
+import './Form.css'
 
-export default function App() {
+function Form() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data) => console.log(data);
+
   return (
-  
-    <form className='form-input'>
-    
-      <MDBInput className='mb-4' id='form5Example1' label='Name' />
-      <br>
-      </br>
-      <MDBInput className='mb-4' type='email' id='form5Example2' label='Email address' />
-
-
-      <MDBBtn type='submit'>
-        Subscribe
-      </MDBBtn>
-      
+    <form  className="form-1" onSubmit={handleSubmit(onSubmit)}>
+      <input placeholder="First Name" {...register('firstName')} />
+      <input placeholder="Last Name" {...register('lastName', { required: true })} />
+      {errors.lastName && <p>Last name is required.</p>}
+      <input placeholder="E-Mail" {...register('email', { pattern: /\d+/ })} />
+      {errors.age && <p>Please enter number for age.</p>}
+      <input type="submit" />
     </form>
   );
 }
+export default Form;

@@ -12,6 +12,7 @@ import skyline from "./../img/skyline.png";
 import mountains from "./../img/mountains.png";
 import VideoPanel from './InfoPanel';
 import InfoPanel from './InfoPanel';
+import "aos/dist/aos.css"
 
 
 
